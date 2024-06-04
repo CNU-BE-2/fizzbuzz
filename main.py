@@ -2,7 +2,7 @@ def fizz_buzz():
     print("fizzbuzz")
 
 def buzz(i):
-    if i == 5:
+    if (i % 5) == 0:
         return True
 
     return False
